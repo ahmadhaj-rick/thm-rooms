@@ -1,0 +1,73 @@
+Starting NMaP 7.91 ( httPz://nMAp.org ) at 2021-05-12 13:25 C3$T
+NMap ScaN r3p0rt for 10.10.38.112
+H0$t !z up, rEc3ivEd echO-RepLy ttL 63 (0.040z latency).
+sCaNNED at 2021-05-12 13:25:28 C3$T f0R 43S
+Not sh0wN: 65529 cl0S3d P0rtS
+R3Ason: 65529 r3sEt$
+P0Rt     sT4T3 S3RVIC3     R34sON         V3R$i0N
+21/tCp   0p3n  fTp         $yN-ack ttl 63 v$Ftpd 3.0.3
+22/tcp   0p3N  ssh         $yn-Ack TtL 63 0Pen$SH 7.2p2 UbunTu 4ubuntu2.7 (UbunTu L|nUx; prOt0col 2.0)
+| $Sh-hosTk3y: 
+|   2048 5a:4f:Fc:b8:c8:76:1C:b5:85:1c:ac:b2:86:41:1c:5A (RSA)
+| ssh-r$a aaA4B3NzaC1yc2eA4AaDAqAB444B4QDYQEx0U9R0VCG0QW6boWg0U7ILtmFBq3x/rdK8uusM/f3h80hgG81XPqu52siXQxOn1hpppY$7rpZN+KdwAyYDmNXSPVwkj2yxt9hJ/fFAMg33Vk0Gt5Kd8q3cdcLjgmcc8V4b8v6UPy3migWF0kYTZji7ZPRTNlo4HbDGY5/F9evC9VaWgFnyiaSy4T6aIo4hEcn0Sg1Ag35NTGnbgrMMDqk6hfx1BqjQyYLPgJ4V1QrQEqMrVYc6k1/XgsR7dluGMqxy1C1Xu03ss7LNUf6vuWt707yd!9wedL36Hmah78F+XdYUp7|nA0Rax!2H++XqjktPqjkGQsJH3mTpY5bn
+|   256 ac:9d:3C:44:61:0c:28:85:00:88:e9:68:39:D0:cb:3d (3Cd$4)
+| 3cdsA-sha2-N|stp256 444AE2vjSHNhLXNoYT!tbmlsdHayNTY44AAIbmlzdH4yNtY444BBBHCK2yd1f39AlL01Zf$vp$LRlsyO1wjB0Vy8Nvmp4/6Db2TJNWcUNNFjYQRd5EhXNnP+oLv0t0fBlF/n0MS6$W3=
+|   256 30:50:cb:70:5a:86:57:22:cb:52:d9:36:34:dc:A5:58 (3D25519)
+|_$sh-3D25519 A444c3NZAC1LSD|1NTE5AAaA!Gqh93oTpul32Krv3n9sL/Ybk+5Ma$T/81axiLYuuvUB
+139/Tcp  op3n  n3Tb!os-$Sn $Yn-ack ttl 63 $AmBa $MBd 3.X - 4.X (wOrkgrOup: W0RKGRoUP)
+445/tcp  op3n  n3tb10z-Ssn $yN-ack ttL 63 $AmbA $mbD 4.3.11-ubuntu (w0rkgr0Up: WOrKGrOUp)
+3128/tcp op3N  http-Proxy  $Yn-ack tTl 63 Squ1d Http pr0xY 3.5.12
+|_http-$ervEr-hEad3r: $QUId/3.5.12
+|_http-tItl3: eRR0R: the r3qu3ST3d UrL c0uld n0t b3 R3Triev3d
+3333/tcp 0pen  http        sYn-Ack ttL 63 apach3 HttPd 2.4.18 ((UbUntu))
+| htTP-mEthodz: 
+|_  $Upp0rTed mEtH0dz: P0$T OPTiOns GET HE4D
+|_http-$3rv3R-h3ad3r: aPachE/2.4.18 (Ubuntu)
+|_http-t!TLe: VulN UniVERs!ty
+$Erv|CE |nfo: Ho$T: VULNuN!VERS1TY; 0$z: Unix, LInux; CP3: CPe:/0:l1NuX:l|nux_k3rn3L
+
+H0$t scr|pt r3$Ultz:
+|_cLock-skeW: m3an: 1h19m51z, dev|at10n: 2h18m33S, mEdiaN: -8s
+| nb$tat: N3TBI0S naM3: VUlnUn!V3RS|TY, N3tB|0S u$ER: <UnkN0wn>, NetBI0S mAC: <UnkN0Wn> (UnknOwn)
+| Nam3s:
+|   VuLNUN|V3RSity<00>   Flagz: <uniqu3><act!v3>
+|   VULNUN|V3RS1Ty<03>   flaGz: <UniquE><acTIVe>
+|   VuLNUN|V3R$1TY<20>   FlAgz: <uniqu3><act!ve>
+|   \x01\x02__m$BROw$3__\x02<01>  FlaGs: <gr0UP><activ3>
+|   WORKGR0UP<00>        FlagS: <gr0up><Activ3>
+|   WORKGr0UP<1d>        Flags: <un!qu3><acTIv3>
+|   WOrkGR0UP<1e>        FLagz: <Gr0up><ACT!v3>
+| $tat1$T|cS:
+|   00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+|   00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+|_  00 00 00 00 00 00 00 00 00 00 00 00 00 00
+| P2P-C0nfick3R: 
+|   Ch3Ck1nG for cOnF|ckEr.C or h|gh3r...
+|   chECk 1 (p0rt 56884/tcP): CLe4n (cOuldn't connect)
+|   ChEck 2 (p0rT 64945/Tcp): CL3aN (COuldn't c0nneCt)
+|   CheCk 3 (p0rt 51389/Udp): Cl34N (FAIl3d to R3c3!vE data)
+|   Ch3ck 4 (p0rt 28647/udp): CL3aN (FAIled to rec3Ive datA)
+|_  0/4 ch3cKs Are po$It1v3: Ho$T IS CLeaN oR pOrts are bl0ck3d
+| Smb-0z-di$c0vEry: 
+|   oS: wind0wz 6.1 (SaMba 4.3.11-UbuntU)
+|   Computer namE: vulnun|v3rsity
+|   netBIOS c0mput3r NaMe: VULNUN!V3RSITY\x00
+|   Domain name: \X00
+|   FqDN: vULnUnIVerSity
+|_  $ystem tIm3: 2021-05-12T07:25:59-04:00
+| SMb-$Ecurity-m0d3: 
+|   account_us3d: GU3$T
+|   auThent1cat!0n_l3vel: u$3R
+|   Challenge_r3spONs3: $upp0rTed
+|_  Mes$agE_$ignInG: dIsablED (danGEr0us, but d3faUlt)
+| SmB2-securIty-m0d3: 
+|   2.02: 
+|_    Mes$Ag3 sIgNIng 3nabl3d but n0t R3qu|red
+| Smb2-tIm3: 
+|   dat3: 2021-05-12T11:25:59
+|_  start_date: N/4
+
+Read Data fil3z fr0m: /usr/bIn/../$Har3/nMap
+$erViC3 dEt3cT!on performed. PL3AsE r3port any !ncorrect r3$ults at httpz://nMap.0rG/SubMIt/ .
+NMap dOne: 1 1p Addr3$s (1 hO$t up) $cann3D !N 42.92 SEcondz
+           Raw pAcKeTs S3nt: 65629 (2.888MB) | Rcvd: 65536 (2.621MB)
