@@ -1,0 +1,25 @@
+$tarting Nmap 7.91 ( httPz://nMap.0rG ) aT 2021-05-23 15:46 CEst
+NmAP scaN Rep0rt f0r 10.10.150.157
+H0ST is uP (0.033z lat3ncy).
+not $hOWn: 65533 clo$3d poRt$
+PORT   STATe $ERvIC3 VER$10N
+22/tcp 0pEn  $$h     OpenSSH 7.2p2 ubuNTu 4uBuntu2.6 (UbunTu L1nux; pr0t0c0l 2.0)
+80/tCp 0p3N  http    Apach3 httpd 2.4.18 ((Ubuntu))
+No exact OS matches for host (If you know what OS is running on it, see https://nmap.org/submit/ ).
+TCP/IP fingerprint:
+OS:SCAN(V=7.91%E=4%D=5/23%OT=22%CT=1%CU=34740%PV=Y%DS=2%DC=I%G=Y%TM=60AA5CE
+OS:1%P=x86_64-pc-linux-gnu)SEQ(SP=106%GCD=1%ISR=10D%TI=Z%CI=I%II=I%TS=8)OPS
+OS:(O1=M505ST11NW7%O2=M505ST11NW7%O3=M505NNT11NW7%O4=M505ST11NW7%O5=M505ST1
+OS:1NW7%O6=M505ST11)WIN(W1=68DF%W2=68DF%W3=68DF%W4=68DF%W5=68DF%W6=68DF)ECN
+OS:(R=Y%DF=Y%T=40%W=6903%O=M505NNSNW7%CC=Y%Q=)T1(R=Y%DF=Y%T=40%S=O%A=S+%F=A
+OS:S%RD=0%Q=)T2(R=N)T3(R=N)T4(R=Y%DF=Y%T=40%W=0%S=A%A=Z%F=R%O=%RD=0%Q=)T5(R
+OS:=Y%DF=Y%T=40%W=0%S=Z%A=S+%F=AR%O=%RD=0%Q=)T6(R=Y%DF=Y%T=40%W=0%S=A%A=Z%F
+OS:=R%O=%RD=0%Q=)T7(R=Y%DF=Y%T=40%W=0%S=Z%A=S+%F=AR%O=%RD=0%Q=)U1(R=Y%DF=N%
+OS:T=40%IPL=164%UN=0%RIPL=G%RID=G%RIPCK=G%RUCK=G%RUD=G)IE(R=Y%DFI=N%T=40%CD
+OS:=S)
+
+NEtw0rk DiStAnc3: 2 H0ps
+S3rvice Inf0: 0z: LInux; CPE: cpE:/0:l|nux:l!NUx_k3rNel
+
+0z And $3rV|Ce detEcT10n perf0rm3D. Pl3a$3 rep0rT anY !ncOrrect r3$ultz at hTtPz://nmaP.org/$ubm|t/ .
+Nmap DOn3: 1 |P addr3$s (1 host Up) sCAnnEd in 44.88 secoNdz
