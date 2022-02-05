@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE nmaprun>
+<?xml-stylesheet href="file:///usr/bin/../share/nmap/nmap.xsl" type="text/xsl"?>
+<!-- Nmap 7.92 scan initiated Sat Feb  5 20:12:56 2022 as: nmap -p 1-15000 -oA external 10.200.193.200 -->
+<nmaprun scanner="nmap" args="nmap -p 1-15000 -oA external 10.200.193.200" start="1644088376" startstr="Sat Feb  5 20:12:56 2022" version="7.92" xmloutputversion="1.05">
+<scaninfo type="connect" protocol="tcp" numservices="15000" services="1-15000"/>
+<verbose level="0"/>
+<debugging level="0"/>
+<hosthint><status state="up" reason="unknown-response" reason_ttl="0"/>
+<address addr="10.200.193.200" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+</hosthint>
+<host starttime="1644088376" endtime="1644088426"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="10.200.193.200" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<ports><extraports state="filtered" count="14995">
+<extrareasons reason="no-response" count="14941" proto="tcp" ports="1-7,9-21,23-24,26-79,81-134,136-138,140-442,444-1190,1192-1586,1588-1719,1721-1722,1724-2283,2285-2560,2562-2917,2919-3054,3056-3362,3364-3388,3390-3598,3600-4279,4281-4713,4715-5843,5845-5895,5897-6169,6171-7391,7393-7518,7520-7649,7651-7729,7731-7897,7899-7915,7917-7935,7937-8045,8047-8079,8081-8101,8103-8185,8187-9009,9011-9074,9076-9089,9091-9999,10001-10135,10137-10153,10155-10382,10384-10929,10931-11128,11130-11187,11189-11245,11247-11982,11984-12226,12228-12488,12490-12508,12510-12697,12699-12706,12708-13122,13124-13185,13187-13482,13484-13717,13719-13833,13835-13926,13928-14391,14393-14892,14894-15000"/>
+<extrareasons reason="host-unreach" count="54" proto="tcp" ports="8,25,135,139,1191,1587,1720,1723,2284,2561,2918,3055,3363,3389,3599,4280,4714,5844,5896,6170,7392,7519,7650,7730,7898,7916,7936,8046,8080,8102,8186,9010,9075,10136,10154,10383,10930,11129,11188,11246,11983,12227,12489,12509,12698,12707,13123,13186,13483,13718,13834,13927,14392,14893"/>
+</extraports>
+<port protocol="tcp" portid="22"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="ssh" method="table" conf="3"/></port>
+<port protocol="tcp" portid="80"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="http" method="table" conf="3"/></port>
+<port protocol="tcp" portid="443"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="https" method="table" conf="3"/></port>
+<port protocol="tcp" portid="9090"><state state="closed" reason="conn-refused" reason_ttl="0"/><service name="zeus-admin" method="table" conf="3"/></port>
+<port protocol="tcp" portid="10000"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="snet-sensor-mgmt" method="table" conf="3"/></port>
+</ports>
+<times srtt="35726" rttvar="1839" to="100000"/>
+</host>
+<runstats><finished time="1644088426" timestr="Sat Feb  5 20:13:46 2022" summary="Nmap done at Sat Feb  5 20:13:46 2022; 1 IP address (1 host up) scanned in 50.39 seconds" elapsed="50.39" exit="success"/><hosts up="1" down="0" total="1"/>
+</runstats>
+</nmaprun>

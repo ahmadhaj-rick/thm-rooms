@@ -1,0 +1,12 @@
+# Nmap 7.92 scan initiated Sat Feb  5 20:12:56 2022 as: nmap -p 1-15000 -oA external 10.200.193.200
+Nmap scan report for 10.200.193.200
+Host is up (0.036s latency).
+Not shown: 14941 filtered tcp ports (no-response), 54 filtered tcp ports (host-unreach)
+PORT      STATE  SERVICE
+22/tcp    open   ssh
+80/tcp    open   http
+443/tcp   open   https
+9090/tcp  closed zeus-admin
+10000/tcp open   snet-sensor-mgmt
+
+# Nmap done at Sat Feb  5 20:13:46 2022 -- 1 IP address (1 host up) scanned in 50.39 seconds

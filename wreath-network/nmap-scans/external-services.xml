@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE nmaprun>
+<?xml-stylesheet href="file:///usr/bin/../share/nmap/nmap.xsl" type="text/xsl"?>
+<!-- Nmap 7.92 scan initiated Sat Feb  5 20:15:54 2022 as: nmap -p 22,80,443,10000,9090 -sV -oA external-services 10.200.193.200 -->
+<nmaprun scanner="nmap" args="nmap -p 22,80,443,10000,9090 -sV -oA external-services 10.200.193.200" start="1644088554" startstr="Sat Feb  5 20:15:54 2022" version="7.92" xmloutputversion="1.05">
+<scaninfo type="connect" protocol="tcp" numservices="5" services="22,80,443,9090,10000"/>
+<verbose level="0"/>
+<debugging level="0"/>
+<hosthint><status state="up" reason="unknown-response" reason_ttl="0"/>
+<address addr="10.200.193.200" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+</hosthint>
+<host starttime="1644088554" endtime="1644088597"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="10.200.193.200" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<ports><port protocol="tcp" portid="22"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="ssh" product="OpenSSH" version="8.0" extrainfo="protocol 2.0" method="probed" conf="10"><cpe>cpe:/a:openbsd:openssh:8.0</cpe></service></port>
+<port protocol="tcp" portid="80"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="http" product="Apache httpd" version="2.4.37" extrainfo="(centos) OpenSSL/1.1.1c" method="probed" conf="10"><cpe>cpe:/a:apache:http_server:2.4.37</cpe></service></port>
+<port protocol="tcp" portid="443"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="http" product="Apache httpd" version="2.4.37" extrainfo="(centos) OpenSSL/1.1.1c" tunnel="ssl" method="probed" conf="10"><cpe>cpe:/a:apache:http_server:2.4.37</cpe></service></port>
+<port protocol="tcp" portid="9090"><state state="closed" reason="conn-refused" reason_ttl="0"/><service name="zeus-admin" method="table" conf="3"/></port>
+<port protocol="tcp" portid="10000"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="http" product="MiniServ" version="1.890" extrainfo="Webmin httpd" method="probed" conf="10"/></port>
+</ports>
+<times srtt="34230" rttvar="8281" to="100000"/>
+</host>
+<runstats><finished time="1644088597" timestr="Sat Feb  5 20:16:37 2022" summary="Nmap done at Sat Feb  5 20:16:37 2022; 1 IP address (1 host up) scanned in 43.25 seconds" elapsed="43.25" exit="success"/><hosts up="1" down="0" total="1"/>
+</runstats>
+</nmaprun>
